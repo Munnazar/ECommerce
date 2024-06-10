@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Core" Version="3.7.302.15" />
+    <PackageReference Include="AWSSDK.SecurityToken" Version="3.7.300.55" />
+    <PackageReference Include="itext7" Version="7.2.6" />
+    <PackageReference Include="MailKit" Version="4.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
+    <PackageReference Include="MimeKit" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sample.Common\Sample.Common.csproj" />
+    <ProjectReference Include="..\Sample.Models\Sample.Models.csproj" />
+  </ItemGroup>
+
+</Project>
